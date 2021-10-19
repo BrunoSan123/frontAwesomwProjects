@@ -1,0 +1,83 @@
+.featured{
+    height: 100vh;
+}
+
+.featured--vertical{
+    width: inherit;
+    height: inherit;
+    background:linear-gradient(to top,#111 10%,transparent 90%);
+}
+
+.featured--horizontal{
+    width:inherit;
+    height: inherit;
+    background: linear-gradient(to right,#111 30%,transparent 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px; 
+}
+
+.featured--name{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.featured--info{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.featured--points,.features--season,.featured--year{
+    display: inline-block;
+    margin-right: 15px;
+}
+.featured--points{
+  
+    color: #46d369;
+  }
+.featured--description{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #999;
+    max-width: 40%;
+}
+
+.featured--buttons{
+    margin-top: 15px;
+}
+
+.featured--white-button, .featured-black-button{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.2s;
+
+}
+
+.featured--white-button:hover, .featured-black-button:hover{
+    opacity: 0.7;
+}
+
+.featured--white-button{
+    background-color: #fff;
+    color: black;
+}
+
+.featured-black-button{
+    background-color: #333;
+    color: #fff;
+}
+
+.feature--generos{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #999;
+}
+
